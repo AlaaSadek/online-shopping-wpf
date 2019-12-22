@@ -1,0 +1,20 @@
+﻿<Window x:Class="Online_Shopping_WPF.Forms.SignIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Online_Shopping_WPF.Forms"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="SignIn" Height="550" Width="470">
+
+    <Grid>
+
+        <TextBox x:Name="emailTB" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" Margin="84,209,0,0" FontSize="16" TextChanged="emailTB_TextChanged"/>
+        <TextBox x:Name="passwordTB" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" Margin="84,295,0,0" FontSize="16"/>
+        <Label Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="84,177,0,0" FontSize="18"/>
+        <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="84,263,0,0" FontSize="18"/>
+        <Button x:Name="signinBTN" Content="Sign In" HorizontalAlignment="Left" VerticalAlignment="Top" Width="101" Margin="186,369,0,0" FontSize="18" Height="38" Click="signinBTN_Click"/>
+        <Image Source="{StaticResource shopLogo}" Margin="150,30,157,379"/>
+    </Grid>
+</Window>

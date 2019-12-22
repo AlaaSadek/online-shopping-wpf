@@ -1,0 +1,18 @@
+﻿<Window x:Class="Online_Shopping_WPF.Forms.Admin.Options"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Online_Shopping_WPF.Forms.Admin"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Options" Height="550" Width="470">
+    <Grid>
+        <Button x:Name="addBTN" Content="Add" HorizontalAlignment="Left" Margin="120,156,0,0" VerticalAlignment="Top" Width="215" Click="addBTN_Click" Height="53"/>
+        <Button x:Name="editBTN" Content="Edit" HorizontalAlignment="Left" Margin="120,239,0,0" VerticalAlignment="Top" Width="215" Height="53" Click="editBTN_Click"/>
+        <Button x:Name="deleteBTN" Content="Delete" HorizontalAlignment="Left" Margin="120,324,0,0" VerticalAlignment="Top" Width="215" Height="53" Click="deleteBTN_Click"/>
+        <Button x:Name="viewBTN" Content="View" HorizontalAlignment="Left" Margin="120,410,0,0" VerticalAlignment="Top" Width="215" Height="53"/>
+        <Image Source="{StaticResource shopLogo}" Margin="150,10,157,399"/>
+
+    </Grid>
+</Window>

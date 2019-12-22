@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Online_Shopping_WPF
+namespace Online_Shopping_WPF.Forms.Orders
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for OrdersList.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class OrdersList : UserControl
     {
-        public MainWindow()
+        public OrdersList()
         {
-            
-
             InitializeComponent();
-
-            Forms.SignIn s = new Forms.SignIn();
-            s.Show();
         }
     }
 }

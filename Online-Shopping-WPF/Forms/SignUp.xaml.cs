@@ -10,24 +10,25 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Online_Shopping_WPF
+namespace Online_Shopping_WPF.Forms
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for SignUp.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SignUp : Window
     {
-        public MainWindow()
+        public SignUp()
         {
-            
-
             InitializeComponent();
+        }
 
-            Forms.SignIn s = new Forms.SignIn();
-            s.Show();
+        private void signUpBTN_Click(object sender, RoutedEventArgs e)
+        {
+            Admin.AddProduct x = new Admin.AddProduct();
+            x.Show();
+
         }
     }
 }
