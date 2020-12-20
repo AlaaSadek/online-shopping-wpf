@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="Online_Shopping_WPF.Forms.Products"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Online_Shopping_WPF.Forms"
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="870">
+    <Grid Margin="0,0,-265,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="{StaticResource shopLogo}" Margin="150,30,830,410"/>
+
+        <CheckBox x:Name="electronicsCB" Content="Electronics" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,217,0,0" FontSize="18" Height="59" Width="115"/>
+        <CheckBox x:Name="fashionCB" Content="Fashion" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,418,0,0" FontSize="18" Height="59" Width="108"/>
+        <CheckBox x:Name="mobileCB" Content="Mobile" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,348,0,0" FontSize="18" Height="59" Width="108"/>
+        <CheckBox x:Name="applianciesCB" Content="Appliancies" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,279,0,0" FontSize="18" Height="59" Width="115"/>
+        <Label Content="Filter by Category" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,158,0,0" FontSize="18" FontWeight="Bold" Height="37" Width="162"/>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="803,38,0,0" Height="51" Width="46"/>
+        <Button x:Name="checkoutBTN" Content="CheckOut" HorizontalAlignment="Left" VerticalAlignment="Top" Width="128" Margin="305,444,0,0" Height="42" RenderTransformOrigin="-0.219,-2.09" Click="checkoutBTN_Click" FontSize="18"/>
+        <StackPanel HorizontalAlignment="Left" Height="324" Margin="180,161,0,0" VerticalAlignment="Top" Width="101">
+            <TextBlock TextWrapping="Wrap" Text="Products" FontSize="18" TextAlignment="Center" FontWeight="Bold" Height="27"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="335" VerticalAlignment="Top" Width="138" Margin="297,161,0,0">
+            <TextBlock TextWrapping="Wrap" Text="Cart" TextAlignment="Center" FontSize="18" FontWeight="Bold"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

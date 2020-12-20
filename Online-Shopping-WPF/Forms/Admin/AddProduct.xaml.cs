@@ -10,24 +10,28 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Online_Shopping_WPF
+namespace Online_Shopping_WPF.Forms.Admin
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for AddProduct.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AddProduct : Window
     {
-        public MainWindow()
+        public AddProduct()
         {
-            
-
             InitializeComponent();
+        }
 
-            Forms.SignIn s = new Forms.SignIn();
-            s.Show();
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

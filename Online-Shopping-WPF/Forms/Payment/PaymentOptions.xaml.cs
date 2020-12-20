@@ -10,24 +10,20 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Online_Shopping_WPF
+namespace Online_Shopping_WPF.Forms.Payment
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for PaymentOptions.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PaymentOptions : Window
     {
-        public MainWindow()
+        public PaymentOptions()
         {
-            
-
             InitializeComponent();
-
-            Forms.SignIn s = new Forms.SignIn();
-            s.Show();
         }
+
+     
     }
 }

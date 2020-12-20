@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="Online_Shopping_WPF.Forms.Orders.OrdersList"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Online_Shopping_WPF.Forms.Orders"
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="700">
+    <Grid>
+
+        <ListView HorizontalAlignment="Left" Height="199" VerticalAlignment="Top" Width="663" Margin="10,156,0,0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Products"  Width="auto"/>
+                    <GridViewColumn Header="Full Name"  Width="auto"/>
+                    <GridViewColumn Header="Address"  Width="auto"/>
+                    <GridViewColumn Header="Country"  Width="auto"/>
+                    <GridViewColumn Header="City"  Width="auto"/>
+                    <GridViewColumn Header="ZIP"  Width="auto"/>
+                    <GridViewColumn Header="Payment Type"  Width="auto"/>
+                    <GridViewColumn Header="Products"  Width="auto"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Margin="199,75,0,0" FontSize="22">
+            <Label Content="My Orders " Width="196" FontSize="30" FontWeight="Bold" Height="55"/>
+        </Label>
+    </Grid>
+</UserControl>
